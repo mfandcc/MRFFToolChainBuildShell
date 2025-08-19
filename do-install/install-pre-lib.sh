@@ -31,7 +31,7 @@ function install_plat() {
     if [[ "$MR_DOWNLOAD_BASEURL" != "" ]] ;then
         base_url="$MR_DOWNLOAD_BASEURL"
     else
-        base_url=https://github.com/debugly/MRFFToolChainBuildShell/releases/download/
+        base_url=https://github.com/mfandcc/MRFFToolChainBuildShell/releases/download/
     fi
     export MR_DOWNLOAD_ONAME="$TAG/$LIB_NAME-$MR_PLAT-universal${join}-$VER.zip"
     export MR_DOWNLOAD_URL="${base_url}${MR_DOWNLOAD_ONAME}"
